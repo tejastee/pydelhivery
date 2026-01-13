@@ -8,7 +8,7 @@ def setup_logging():
     """Initializes logging based on the PYDELHIVERY_LOGGING env var."""
 
     # Grab level from env, default to INFO if not set or invalid
-    log_level = os.getenv("PYDELHIVERY_LOGGING", "DEBUG").upper()
+    log_level = os.getenv("PYDELHIVERY_LOGGING", "INFO").upper()
 
     # Map string to logging constants (handles typos gracefully)
     numeric_level = getattr(logging, log_level, logging.INFO)
