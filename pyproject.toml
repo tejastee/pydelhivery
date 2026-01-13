@@ -1,6 +1,6 @@
 [project]
 name = "pydelhivery"
-version = "0.1.0"
+version = "0.1.1"
 description = "Thin Python Wrapper for India's Biggest 3rd Party Logistics Service Provider"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -15,3 +15,7 @@ dependencies = [
 dev = [
     "ruff>=0.14.11",
 ]
+
+[project.urls]
+Homepage = "https://github.com/tejastee/pydelhivery"
+Issues = "https://github.com/tejastee/pydelhivery/issues"
