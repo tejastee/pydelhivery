@@ -21,18 +21,16 @@ keywords = [
   "api-client"
 ]
 
+
 classifiers = [
   "Development Status :: 3 - Alpha",
   "Intended Audience :: Developers",
   "Topic :: Software Development :: Libraries",
-  "Topic :: Software Development :: API",
+  "Topic :: Software Development :: Libraries :: Python Modules", # Recommended replacement
   "License :: OSI Approved :: MIT License",
   "Programming Language :: Python :: 3",
   "Programming Language :: Python :: 3 :: Only",
-  "Programming Language :: Python :: 3.8",
-  "Programming Language :: Python :: 3.9",
-  "Programming Language :: Python :: 3.10",
-  "Programming Language :: Python :: 3.11",
+  "Programming Language :: Python :: 3.12",
 ]
 
 [dependency-groups]
