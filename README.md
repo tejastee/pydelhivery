@@ -4,6 +4,8 @@ A Python wrapper for Delhivery's B2C API, providing a clean and type-safe interf
 
 This library is based on the [Delhivery Developer Portal Documentation](https://one.delhivery.com/developer-portal/documents).
 
+> **Note**: This is an independent, open-source project. The author is not affiliated with Delhivery in any way. This project is provided as-is in the hope that others find it helpful for integrating with Delhivery's APIs.
+
 ## Features
 
 - ✅ **Pincode Serviceability Check** - Verify if a location is serviceable for delivery
