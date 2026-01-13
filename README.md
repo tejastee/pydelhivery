@@ -1,5 +1,7 @@
 # pydelhivery
 
+![PyPI](https://img.shields.io/pypi/v/pydelhivery)
+
 A Python wrapper for Delhivery's B2C API, providing a clean and type-safe interface for integrating with India's largest third-party logistics service provider.
 
 This library is based on the [Delhivery Developer Portal Documentation](https://one.delhivery.com/developer-portal/documents).

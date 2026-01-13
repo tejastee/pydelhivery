@@ -1,6 +1,6 @@
 [project]
 name = "pydelhivery"
-version = "0.1.1"
+version = "0.1.2"
 description = "Thin Python Wrapper for India's Biggest 3rd Party Logistics Service Provider"
 readme = "README.md"
 requires-python = ">=3.12"
@@ -11,6 +11,30 @@ dependencies = [
     "rich>=14.2.0",
 ]
 
+keywords = [
+  "delhivery",
+  "shipping",
+  "logistics",
+  "courier",
+  "tracking",
+  "python-sdk",
+  "api-client"
+]
+
+classifiers = [
+  "Development Status :: 3 - Alpha",
+  "Intended Audience :: Developers",
+  "Topic :: Software Development :: Libraries",
+  "Topic :: Software Development :: API",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Programming Language :: Python :: 3 :: Only",
+  "Programming Language :: Python :: 3.8",
+  "Programming Language :: Python :: 3.9",
+  "Programming Language :: Python :: 3.10",
+  "Programming Language :: Python :: 3.11",
+]
+
 [dependency-groups]
 dev = [
     "ruff>=0.14.11",
@@ -18,4 +42,8 @@ dev = [
 
 [project.urls]
 Homepage = "https://github.com/tejastee/pydelhivery"
+Repository = "https://github.com/tejastee/pydelhivery"
 Issues = "https://github.com/tejastee/pydelhivery/issues"
+Documentation = "https://github.com/tejastee/pydelhivery#readme"
+
+
